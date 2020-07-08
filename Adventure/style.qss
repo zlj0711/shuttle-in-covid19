@@ -1,0 +1,209 @@
+﻿/*-----------------background-----------------*/
+QWidget {
+   background-color: white;
+}
+
+QToolBar {
+    background-color: white;
+}
+
+QMessageBox {
+    background-color: white;
+}
+
+QDialog, QFileDialog {
+    background-color: white;
+}
+
+
+/*-----------------PushButton-----------------*/
+QPushButton {
+    background-color: #34495E;
+    color: #FFFFFF;
+    border-style: none;
+    border-radius: 3;
+    padding: 8px;
+}
+
+QPushButton:hover {
+   background-color: #4E6D8C;
+   color: #F0F0F0;
+}
+
+QPushButton:pressed {
+    background-color: #2D3E50;
+    color: #B8C6D1;
+}
+
+
+/*-----------------LineEdit-----------------*/
+QLineEdit, QFrame {
+
+    background-color: #DCE4EC;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #DCE4EC;
+    border-style: none;
+    padding: 3px;
+}
+
+QLineEdit:focus, QFrame:focus {
+
+    border:1px solid #34495E;
+}
+
+
+/*-----------------ToolTip-----------------*/
+QToolTip {
+    background-color: #F8FaFb;
+    border: 1px solid #34495E;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+
+/*-----------------CheckBox-----------------*/
+QRadioButton:hover, QCheckBox:hover {
+    background-color: #DCE4EC;
+}
+
+QCheckBox::indicator::unchecked {
+    image: url(:/uncheck.ico);
+}
+
+QCheckBox::indicator::checked {
+    image: url(:/check.ico);
+}
+
+
+/*-----------------ComboBox-----------------*/
+QComboBox {
+
+    background-color: #DCE4EC;
+    border-radius:3px;
+    padding:1px 18px 1px 3px;
+}
+
+QComboBox:on {
+    border:1px solid #34495E;
+}
+
+QComboBox::drop-down {
+    image: url(:/drop-down.ico);
+}
+
+
+/*-----------------item-----------------*/
+QListView {
+    show-decoration-selected: 1;
+    /*selection-color: #0a214c;*/
+}
+
+QListView::item:hover {
+    background-color: #4E6D8C;
+    color: #FFFFFF;
+}
+
+
+/*-----------------DateEdit-----------------*/
+
+QDateEdit{
+    background-color: #DCE4EC;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #DCE4EC;
+    border-style: none;
+    padding: 3px;
+}
+
+QDateEdit:focus {
+    border:1px solid #34495E;
+}
+
+QDateEdit:up-button{
+    image: url(:/up.ico);
+}
+QDateEdit:down-button{
+    image: url(:/down.ico);
+}
+
+
+/*-----------------SpinBox-----------------*/
+QSpinBox{
+    background-color: #DCE4EC;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #DCE4EC;
+    border-style: none;
+    padding: 3px;
+}
+
+QSpinBox:focus {
+    border:1px solid #34495E;
+}
+
+QSpinBox:up-button{
+    image: url(:/up.ico);
+}
+QSpinBox:down-button{
+    image: url(:/down.ico);
+}
+
+
+/*-----------------ScrollBar-----------------*/
+QScrollBar:vertical{
+    border-radius: 3px;
+    background-color: #DCE4EC;
+}
+QScrollBar::handle:vertical{
+    border-radius: 3px;
+    background-color: #4E6D8C;
+}
+QScrollBar:horizontal{
+    border-radius: 3px;
+    background-color: #DCE4EC;
+}
+QScrollBar::handle:horizontal{
+    border-radius: 3px;
+    background-color: #4E6D8C;
+}
+
+
+/*-----------------others-----------------*/
+
+QLabel, QAbstractButton {
+    font: bold;
+}
+
+
+.mandatory {
+    color: brown;
+}
+
+
+QStatusBar QLabel {
+   font: normal;
+}
+
+QStatusBar::item {
+    border-width: 1;
+    border-color: darkkhaki;
+    border-style: solid;
+    border-radius: 2;
+}
+
+QStackedWidget, QSpinBox, QTextEdit, QListView, QWebView, QTreeView, QHeaderView {
+    background-color: #DCE4EC;
+}
+
+
+QLabel {
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+QDialogButtonBox {
+    button-layout: 0;
+}
+

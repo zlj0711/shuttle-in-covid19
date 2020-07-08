@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RouteQuery</class>
+ <widget class="QWidget" name="RouteQuery">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>290</width>
+    <height>270</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>10</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请输入您的计划旅行信息</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="startBtn">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>223</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始旅行</string>
+   </property>
+  </widget>
+  <widget class="QListView" name="planList">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>41</y>
+     <width>271</width>
+     <height>171</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>223</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>50</y>
+     <width>271</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="fromLabel">
+        <property name="text">
+         <string>出发地</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="fromChoice">
+        <item>
+         <property name="text">
+          <string>北京</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>天津</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>上海</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>重庆</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>哈尔滨</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>沈阳</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>石家庄</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>西安</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>济南</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>广州</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>长沙</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>南京</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>武汉</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>成都</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>深圳</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="toLabel">
+        <property name="text">
+         <string>目的地</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="toChoice">
+        <item>
+         <property name="text">
+          <string>北京</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>天津</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>上海</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>重庆</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>哈尔滨</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>沈阳</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>石家庄</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>西安</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>济南</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>广州</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>长沙</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>南京</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>武汉</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>成都</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>深圳</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="strategyLabel">
+        <property name="text">
+         <string>旅行策略</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="strategyChoice">
+        <item>
+         <property name="text">
+          <string>最低风险</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>限时最低风险</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLabel" name="timeLabel">
+        <property name="text">
+         <string>限制时间(h)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="spinBox"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QPushButton" name="backBtn">
+        <property name="text">
+         <string>返回</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="queryBtn">
+        <property name="text">
+         <string>查询</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <zorder>backButton</zorder>
+  <zorder>startBtn</zorder>
+  <zorder>planList</zorder>
+  <zorder>horizontalLayoutWidget_4</zorder>
+  <zorder>label</zorder>
+  <zorder>verticalLayoutWidget</zorder>
+  <zorder>verticalLayoutWidget</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

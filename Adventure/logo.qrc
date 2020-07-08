@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>logo.png</file>
+        <file>map.png</file>
+        <file>wait.jpg</file>
+        <file>car.jpg</file>
+        <file>plane.jpg</file>
+        <file>train.jpg</file>
+        <file>city.jpg</file>
+    </qresource>
+    <qresource prefix="/Qss">
+        <file>style.qss</file>
+    </qresource>
+</RCC>
